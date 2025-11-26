@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maison Caviar — Caviar d'exception livré en 24h</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <!-- Floating background elements -->
+  <div class="bg-decoration">
+    <div class="float-bubble"></div>
+    <div class="float-bubble"></div>
+    <div class="float-bubble"></div>
+  </div>
+
+  <div class="top-banner">
+    <div class="banner-content">
+      <svg class="banner-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M20 7h-4V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v3H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2z"/>
+      </svg>
+      Livraison rapide à Madagascar • Antananarivo & Régions
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M12 6v12M6 12h12"/>
+        </svg>
+      </span>
+      <span class="brand-name">Maison Caviar</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#accueil" class="nav-link">Accueil</a>
+      <a href="#catalogue" class="nav-link">Catalogue</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <div style="display: flex; gap: 1rem; align-items: center;">
+      <button class="btn-icon btn-cart" onclick="openCart()" title="Panier">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="9" cy="21" r="1"/>
+          <circle cx="20" cy="21" r="1"/>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+        </svg>
+      </button>
+      <a class="btn btn-primary nav-cta" href="#catalogue">Commander</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero__video">
+        <video autoplay muted loop playsinline class="hero__video-bg">
+          <source src="https://cdn.coverr.co/videos/coverr-luxury-black-caviar-on-spoon-4223/1080p.mp4" type="video/mp4">
+        </video>
+        <div class="hero__video-overlay"></div>
+      </div>
+      <div class="hero__content">
+        <p class="eyebrow fade-in">
+          <svg class="eyebrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+          </svg>
+          Origine contrôlée • Traçabilité complète
+        </p>
+        <h1 class="slide-up">Caviar d'Exception à Madagascar</h1>
+        <p class="lead slide-up delay-1">Importation directe de caviar premium. Sélection certifiée, traçable de l'esturgeon à votre table. Livraison express à Antananarivo et dans toute l'île.</p>
+        <div class="hero__ctas slide-up delay-2">
+          <a class="btn btn-primary" href="#catalogue">
+            Découvrir nos caviars
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <a class="btn btn-outline" href="#contact">Parler à un expert</a>
+        </div>
+        <div class="hero__badges slide-up delay-3">
+          <span class="badge-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+            </svg>
+            Livraison Express Madagascar
+          </span>
+          <span class="badge-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+            </svg>
+            Paiement en Ariary
+          </span>
+          <span class="badge-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+            </svg>
+            Conseils dégustation inclus
+          </span>
+        </div>
+      </div>
+      <div class="hero__card card-float">
+        <img src="https://images.unsplash.com/photo-1609501676725-7186f017a4b7?w=600&auto=format&fit=crop&q=80" alt="Caviar Beluga Premium" class="caviar-image">
+        <div class="hero__label">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+          </svg>
+          Sélection du chef
+        </div>
+        <h3>Beluga Réserve</h3>
+        <p>Texture beurrée exceptionnelle. Perles brillantes dorées, saveur pure et raffinée.</p>
+        <div class="price-line">Dès 600 000 Ar — 30g, 50g, 125g</div>
+        <div class="hero__actions">
+          <a class="btn btn-primary" href="#catalogue">Ajouter</a>
+          <a class="btn btn-ghost" href="#catalogue">Voir la fiche</a>
+        </div>
+        <div class="card-meta">
+          <span>✓ Import direct Europe</span>
+          <span>✓ Conservation optimale garantie</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust">
+      <div class="section-head">
+        <h2>Excellence & Confiance</h2>
+        <p>Import premium certifié, traçabilité complète, service clientèle dédié à Madagascar.</p>
+      </div>
+      <div class="pill-row">
+        <div class="pill pill-animate">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+          Qualité Premium Certifiée
+        </div>
+        <div class="pill pill-animate">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+            <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+            <line x1="12" y1="22.08" x2="12" y2="12"/>
+          </svg>
+          Livraison Sécurisée Madagascar
+        </div>
+        <div class="pill pill-animate">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+          Support Dédié Antananarivo
+        </div>
+      </div>
+    </section>
+
+    <section class="featured" id="selection">
+      <div class="section-head">
+        <h2>Sélection phare</h2>
+        <p>Nos best-sellers, prêts à être dégustés. Formats découverte ou réception.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1625937329935-a67ed30f92a4?w=600&auto=format&fit=crop&q=80" alt="Caviar Baeri" class="product-image">
+          <div class="ribbon ribbon-gold">Best-seller</div>
+          <h3>Baeri Signature</h3>
+          <p class="note">Perles fines raffinées, saveur iodée délicate et élégante.</p>
+          <div class="meta-line">Formats : 30g, 50g, 125g</div>
+          <div class="price-line">Dès 245 000 Ar</div>
+          <div class="card-actions">
+            <button class="btn btn-outline" onclick="openProductModal('baeri')">Voir la fiche</button>
+            <button class="btn btn-primary" onclick="openProductModal('baeri')">Ajouter</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1535473895227-bdecb20fb157?w=600&auto=format&fit=crop&q=80" alt="Caviar Osciètre" class="product-image">
+          <div class="ribbon">Favori chefs</div>
+          <h3>Osciètre Royal</h3>
+          <p class="note">Notes de noisette, longueur en bouche exceptionnelle.</p>
+          <div class="meta-line">Formats : 30g, 50g, 125g</div>
+          <div class="price-line">Dès 345 000 Ar</div>
+          <div class="card-actions">
+            <button class="btn btn-outline" onclick="openProductModal('oscietre')">Voir la fiche</button>
+            <button class="btn btn-primary" onclick="openProductModal('oscietre')">Ajouter</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1609501676725-7186f017a4b7?w=600&auto=format&fit=crop&q=80" alt="Caviar Beluga" class="product-image">
+          <div class="ribbon ribbon-rare">Édition rare</div>
+          <h3>Beluga Réserve</h3>
+          <p class="note">Texture beurrée ultra-premium, rare et d'exception.</p>
+          <div class="meta-line">Formats : 30g, 50g, 125g</div>
+          <div class="price-line">Dès 600 000 Ar</div>
+          <div class="card-actions">
+            <button class="btn btn-outline" onclick="openProductModal('beluga')">Voir la fiche</button>
+            <button class="btn btn-primary" onclick="openProductModal('beluga')">Ajouter</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience">
+      <div class="panel">
+        <h3>Expérience de Dégustation Premium</h3>
+        <p>Importés et livrés avec soin à Madagascar, nos caviars arrivent dans des conditions optimales. Guide de dégustation et conseils d'accords inclus.</p>
+        <div class="tips">
+          <div class="tip">Accords : blinis tièdes, crème fraîche de Madagascar, champagne brut ou vodka givrée.</div>
+          <div class="tip">Conservation : 0-4°C, ouvrir au dernier moment, cuillère nacre ou céramique recommandée.</div>
+          <div class="tip">Livraison : Express à Antananarivo, emballage isotherme spécialisé, suivi en temps réel.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="section-head">
+        <h2>Services d'Excellence</h2>
+        <p>Livraison sécurisée à Madagascar, emballage isotherme premium, expertise caviar disponible.</p>
+      </div>
+      <div class="service-grid">
+        <div class="service-card">
+          <h4>Livraison Express Madagascar</h4>
+          <p>Expédition réfrigérée sécurisée, suivi GPS temps réel, livraison à Tana et régions.</p>
+        </div>
+        <div class="service-card">
+          <h4>Emballage Isotherme Premium</h4>
+          <p>Protection optimale adaptée au climat malgache, présentation luxueuse, prêt à offrir.</p>
+        </div>
+        <div class="service-card">
+          <h4>Expertise & Conseil</h4>
+          <p>Sommelier caviar disponible, conseils de service et d'accords, assistance personnalisée.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <div class="panel rating">
+        <div class="stars">★★★★★ 4,9/5</div>
+        <p>« Qualité exceptionnelle, livraison impeccable à Antananarivo. Un luxe rare à Madagascar ! »</p>
+        <span class="author">Client Premium - Antananarivo</span>
+      </div>
+    </section>
+
+    <section class="catalogue" id="catalogue">
+      <div class="section-head catalogue-head">
+        <div>
+          <p class="eyebrow">Catalogue</p>
+          <h2>Collection Premium à Madagascar</h2>
+          <p class="muted">Import direct certifié, traçabilité complète, livraison express sécurisée.</p>
+        </div>
+        <div class="filter-bar">
+          <span class="muted">Filtrer par</span>
+          <button class="chip active">Intensité</button>
+          <button class="chip">Prix</button>
+          <button class="chip">Rareté</button>
+          <button class="chip">Best-sellers</button>
+        </div>
+      </div>
+      <div class="product-grid product-grid--catalogue">
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1625937329935-a67ed30f92a4?w=600&auto=format&fit=crop&q=80" alt="Caviar Baeri" class="product-image">
+          <div class="ribbon ribbon-gold">Best-seller</div>
+          <h3>Baeri Signature</h3>
+          <p class="note">Perles fines raffinées, saveur iodée délicate.</p>
+          <div class="meta-line">Import direct premium</div>
+          <div class="meta-line">Formats : 30g, 50g, 125g</div>
+          <div class="price-line">Dès 245 000 Ar</div>
+          <div class="card-actions">
+            <button class="btn btn-outline" onclick="openProductModal('baeri')">Voir la fiche</button>
+            <button class="btn btn-primary" onclick="openProductModal('baeri')">Ajouter</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1535473895227-bdecb20fb157?w=600&auto=format&fit=crop&q=80" alt="Caviar Osciètre" class="product-image">
+          <div class="ribbon">Favori chefs</div>
+          <h3>Osciètre Royal</h3>
+          <p class="note">Notes de noisette, longueur exceptionnelle.</p>
+          <div class="meta-line">Import direct premium</div>
+          <div class="meta-line">Formats : 30g, 50g, 125g</div>
+          <div class="price-line">Dès 345 000 Ar</div>
+          <div class="card-actions">
+            <button class="btn btn-outline" onclick="openProductModal('oscietre')">Voir la fiche</button>
+            <button class="btn btn-primary" onclick="openProductModal('oscietre')">Ajouter</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1609501676725-7186f017a4b7?w=600&auto=format&fit=crop&q=80" alt="Caviar Beluga" class="product-image">
+          <div class="ribbon ribbon-rare">Édition rare</div>
+          <h3>Beluga Réserve</h3>
+          <p class="note">Texture beurrée ultra-premium, rare.</p>
+          <div class="meta-line">Import direct premium</div>
+          <div class="meta-line">Formats : 30g, 50g, 125g</div>
+          <div class="price-line">Dès 600 000 Ar</div>
+          <div class="card-actions">
+            <button class="btn btn-outline" onclick="openProductModal('beluga')">Voir la fiche</button>
+            <button class="btn btn-primary" onclick="openProductModal('beluga')">Ajouter</button>
+          </div>
+        </article>
+      </div>
+      <div class="guide-panel">
+        <h3>Comment choisir ?</h3>
+        <div class="guide-points">
+          <div class="guide-point">
+            <strong>Intensité</strong>
+            <p>Doux → corsé selon l'espèce et l'affinage.</p>
+          </div>
+          <div class="guide-point">
+            <strong>Texture</strong>
+            <p>Fondant → ferme selon la taille et la maturité des perles.</p>
+          </div>
+          <div class="guide-point">
+            <strong>Occasion</strong>
+            <p>Découverte, dîner intimiste ou célébration.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Fiche Produit -->
+  <div id="productModal" class="modal">
+    <div class="modal-overlay" onclick="closeProductModal()"></div>
+    <div class="modal-content product-modal">
+      <button class="modal-close" onclick="closeProductModal()">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 6L6 18M6 6l12 12"/>
+        </svg>
+      </button>
+      <div id="productModalContent"></div>
+    </div>
+  </div>
+
+  <!-- Modal Panier -->
+  <div id="cartModal" class="modal">
+    <div class="modal-overlay" onclick="closeCart()"></div>
+    <div class="modal-content cart-modal">
+      <button class="modal-close" onclick="closeCart()">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 6L6 18M6 6l12 12"/>
+        </svg>
+      </button>
+      <div class="modal-header">
+        <h2>Votre Panier</h2>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="9" cy="21" r="1"/>
+          <circle cx="20" cy="21" r="1"/>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+        </svg>
+      </div>
+      <div id="cartContent"></div>
+    </div>
+  </div>
+
+  <!-- Modal Commande -->
+  <div id="orderModal" class="modal">
+    <div class="modal-overlay" onclick="closeOrder()"></div>
+    <div class="modal-content order-modal">
+      <button class="modal-close" onclick="closeOrder()">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 6L6 18M6 6l12 12"/>
+        </svg>
+      </button>
+      <div class="modal-header">
+        <h2>Finaliser la Commande</h2>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 11l3 3L22 4"/>
+          <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+        </svg>
+      </div>
+      <div id="orderContent"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-columns">
+      <div>
+        <div class="brand">
+          <span class="brand-mark">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M12 6v12M6 12h12"/>
+            </svg>
+          </span>
+          <span class="brand-name">Maison Caviar</span>
+        </div>
+        <p class="muted">Import de caviar d'exception à Madagascar. Qualité premium, livraison sécurisée.</p>
+      </div>
+      <div>
+        <h4>Contact Madagascar</h4>
+        <p class="muted">
+          <svg class="footer-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+          contact@maisoncaviar.mg<br>
+          <svg class="footer-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          +261 34 12 345 67
+        </p>
+      </div>
+      <div>
+        <h4>Informations</h4>
+        <p class="muted">
+          📍 Antananarivo, Madagascar<br>
+          <a href="#">Mentions légales</a><br>
+          <a href="#">Politique de confidentialité</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "title": "Maison Caviar — Caviar d'exception livré en 24h",
+    "lang": "fr"
+  },
+  "header": {
+    "brand": "Maison Caviar",
+    "nav": {
+      "home": "Accueil",
+      "catalog": "Catalogue",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "cart": "Panier",
+    "cta": "Commander"
+  },
+  "banner": {
+    "text": "Livraison rapide à Madagascar • Antananarivo & Régions"
+  },
+  "hero": {
+    "eyebrow": "Origine contrôlée • Traçabilité complète",
+    "title": "Caviar d'Exception à Madagascar",
+    "lead": "Importation directe de caviar premium. Sélection certifiée, traçable de l'esturgeon à votre table. Livraison express à Antananarivo et dans toute l'île.",
+    "cta_primary": "Découvrir nos caviars",
+    "cta_secondary": "Parler à un expert",
+    "badges": [
+      "Livraison Express Madagascar",
+      "Paiement en Ariary",
+      "Conseils dégustation inclus"
+    ],
+    "card_label": "Best-seller",
+    "card_price": "Dès 245 000 Ar"
+  },
+  "pills": {
+    "title": "Excellence & Confiance",
+    "subtitle": "Import premium certifié, traçabilité complète, service clientèle dédié à Madagascar.",
+    "items": [
+      {
+        "text": "Qualité Premium Certifiée",
+        "icon": "shield"
+      },
+      {
+        "text": "Livraison Sécurisée Madagascar",
+        "icon": "package"
+      },
+      {
+        "text": "Support Dédié Antananarivo",
+        "icon": "user"
+      }
+    ]
+  },
+  "featured": {
+    "title": "Sélection phare",
+    "subtitle": "Nos best-sellers, prêts à être dégustés. Formats découverte ou réception."
+  },
+  "experience": {
+    "title": "Expérience de Dégustation Premium",
+    "description": "Importés et livrés avec soin à Madagascar, nos caviars arrivent dans des conditions optimales. Guide de dégustation et conseils d'accords inclus.",
+    "tips": [
+      "Accords : blinis tièdes, crème fraîche de Madagascar, champagne brut ou vodka givrée.",
+      "Conservation : 0-4°C, ouvrir au dernier moment, cuillère nacre ou céramique recommandée.",
+      "Livraison : Express à Antananarivo, emballage isotherme spécialisé, suivi en temps réel."
+    ]
+  },
+  "services": {
+    "title": "Services d'Excellence",
+    "subtitle": "Livraison sécurisée à Madagascar, emballage isotherme premium, expertise caviar disponible.",
+    "items": [
+      {
+        "title": "Livraison Express Madagascar",
+        "description": "Expédition réfrigérée sécurisée, suivi GPS temps réel, livraison à Tana et régions."
+      },
+      {
+        "title": "Emballage Isotherme Premium",
+        "description": "Protection optimale adaptée au climat malgache, présentation luxueuse, prêt à offrir."
+      },
+      {
+        "title": "Expertise & Conseil",
+        "description": "Sommelier caviar disponible, conseils de service et d'accords, assistance personnalisée."
+      }
+    ]
+  },
+  "testimonial": {
+    "rating": "★★★★★ 4,9/5",
+    "quote": "« Qualité exceptionnelle, livraison impeccable à Antananarivo. Un luxe rare à Madagascar ! »",
+    "author": "Client Premium - Antananarivo"
+  },
+  "catalog": {
+    "eyebrow": "Catalogue",
+    "title": "Collection Premium à Madagascar",
+    "subtitle": "Import direct certifié, traçabilité complète, livraison express sécurisée.",
+    "filter_label": "Filtrer par",
+    "filters": ["Intensité", "Prix", "Rareté", "Best-sellers"]
+  },
+  "guide": {
+    "title": "Comment choisir ?",
+    "points": [
+      {
+        "label": "Intensité",
+        "description": "Doux → corsé selon l'espèce et l'affinage."
+      },
+      {
+        "label": "Texture",
+        "description": "Fondant → ferme selon la taille et la maturité des perles."
+      },
+      {
+        "label": "Occasion",
+        "description": "Découverte, dîner intimiste ou célébration."
+      }
+    ]
+  },
+  "footer": {
+    "brand": "Maison Caviar",
+    "description": "Import de caviar d'exception à Madagascar. Qualité premium, livraison sécurisée.",
+    "contact": {
+      "title": "Contact Madagascar",
+      "email": "contact@maisoncaviar.mg",
+      "phone": "+261 34 12 345 67"
+    },
+    "info": {
+      "title": "Informations",
+      "location": "📍 Antananarivo, Madagascar",
+      "links": [
+        { "text": "Mentions légales", "href": "#" },
+        { "text": "Politique de confidentialité", "href": "#" }
+      ]
+    }
+  },
+  "modals": {
+    "product": {
+      "format_label": "Choisissez votre format :",
+      "features": [
+        "Import direct premium",
+        "Conservation 0-4°C",
+        "Livraison sécurisée Madagascar"
+      ],
+      "btn_select_format": "Sélectionnez un format",
+      "btn_add_to_cart": "Ajouter au panier"
+    },
+    "cart": {
+      "title": "Votre Panier",
+      "empty_title": "Votre panier est vide",
+      "empty_message": "Découvrez notre sélection de caviars d'exception",
+      "empty_cta": "Voir le catalogue",
+      "total": "Total",
+      "btn_order": "Passer commande",
+      "btn_continue": "Continuer mes achats"
+    },
+    "order": {
+      "title": "Finaliser la Commande",
+      "summary_title": "Récapitulatif",
+      "delivery_fee": "Livraison sécurisée",
+      "delivery_amount": 15000,
+      "total": "Total",
+      "form": {
+        "title": "Informations de livraison",
+        "full_name": {
+          "label": "Nom complet *",
+          "placeholder": "Jean Rakoto"
+        },
+        "email": {
+          "label": "Email *",
+          "placeholder": "email@exemple.mg"
+        },
+        "phone": {
+          "label": "Téléphone *",
+          "placeholder": "+261 34 12 345 67"
+        },
+        "address": {
+          "label": "Adresse de livraison *",
+          "placeholder": "Adresse complète, Quartier, Ville"
+        },
+        "city": {
+          "label": "Ville *",
+          "placeholder": "Sélectionnez une ville",
+          "options": [
+            "Antananarivo",
+            "Antsirabe",
+            "Toamasina",
+            "Mahajanga",
+            "Antsiranana",
+            "Fianarantsoa",
+            "Toliara"
+          ]
+        },
+        "instructions": {
+          "label": "Instructions spéciales (optionnel)",
+          "placeholder": "Horaire de livraison préféré, accès..."
+        }
+      },
+      "payment": {
+        "title": "Mode de paiement",
+        "options": [
+          {
+            "id": "cod",
+            "label": "Paiement à la livraison",
+            "description": "Espèces ou Mobile Money"
+          },
+          {
+            "id": "bank",
+            "label": "Virement bancaire",
+            "description": "Instructions envoyées par email"
+          }
+        ]
+      },
+      "btn_confirm": "Confirmer la commande",
+      "success": {
+        "title": "Commande confirmée !",
+        "message": "Merci pour votre commande. Vous recevrez un email de confirmation avec les détails de livraison.",
+        "order_number": "N° de commande :",
+        "next_steps_title": "Prochaines étapes :",
+        "next_steps": [
+          "✓ Confirmation par email dans quelques minutes",
+          "✓ Appel de notre équipe sous 24h",
+          "✓ Livraison sécurisée sous 2-3 jours"
+        ],
+        "btn_home": "Retour à l'accueil"
+      }
+    }
+  },
+  "notifications": {
+    "added_to_cart": "ajouté au panier! ✨",
+    "removed_from_cart": "retiré du panier",
+    "select_format": "Veuillez sélectionner un format"
+  }
+}
